@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Nerko+One&display=swap');
+
+.leaflet-container {
+    width: 100vw; 
+    height: 70vh;
+}
+
+
+body,
+html, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;  
+}
+
+//Logo
+#BEET{
+    font-family: 'Nerko One', cursive;
+}
+
+#clock{
+    font-family: 'Inconsolata', monospace;
+}
+
+//Views
+
+//Landing
+#Landing{
+    height:100vh;
+    width:100vw;
+    background-color: #E9B1A0;
+}
+
+#logoLanding{
+    text-align: center;
+}
+
+#locate_me_button{
+    border-radius: 40%;
+    height: 50px;
+    width: 150px;
+    background-color: #7a1c41;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    transition: 0.1s ease-in-out;
+    &:hover{
+        background-color: #8f3559;
+        color: white;
+        scale: 1.1;
+        cursor: pointer;
+    }
+}
+
+//LoginSignup
+#loginSign{
+    height:100vh;
+    width:100vw;
+    background-color: #E9B1A0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#loginContainer{
+    height: 30vw;
+    width: 30vw;
+}
+
+#loginContainer input{
+    height: 30px;
+    width: 80%;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+#loginContainer button{
+    height: 30px;
+    width: 80%;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7a1c41;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    transition: 0.1s ease-in-out;
+    &:hover{
+        background-color: #8f3559;
+        color: white;
+        scale: 1.1;
+        cursor: pointer;
+    }
+}
+
+#showSignUpButton{
+    height: 30px;
+    width: 80%;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7a1c41;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    transition: 0.1s ease-in-out;
+    &:hover{
+        background-color: #8f3559;
+        color: white;
+        scale: 1.1;
+        cursor: pointer;
+    }
+}
