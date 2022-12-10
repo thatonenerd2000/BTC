@@ -1,13 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 //componenets
-import Logo from "../components/Logo";
 import Login from "../components/Login";
 import Signup from "../components/Signup";
 
 const LoginSign = (props) => {
   const [showSignUp, setShowSignUp] = useState(false);
   const [showLogin, setShowLogin] = useState(true);
+
   return (
     <>
       <div id="loginSign">

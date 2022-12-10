@@ -7,9 +7,10 @@ import "./style.scss";
 //Views
 import Landing from "./views/Landing";
 import LoginSign from "./views/LoginSign";
+import Dashboard from "./views/Dashboard";
 
 //Global Context
-import GlobalContext from "./GlobalConfig";
+import GlobalContext from "./GlobalContext";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Landing />} />
           <Route exact path="login" element={<LoginSign />} />
+          <Route exact path="dashboard" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </GlobalContext>

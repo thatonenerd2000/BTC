@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13.2
+    environment:
+      POSTGRES_DB: 442_project
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: password
+  backend:
+    build: ./backend
+    environment:
+      WAIT_HOSTS: postgres:5432
+    ports:
+      - "8080:8000"
+  frontend:
+    build: ./frontend
+    ports:
+      - "3001:3000"

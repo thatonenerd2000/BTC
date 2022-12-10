@@ -112,3 +112,54 @@ html, h1, h2, h3, h4, h5, h6 {
         cursor: pointer;
     }
 }
+
+#DashboardPage{
+    height:100vh;
+    width:100vw;
+    background-color: #E9B1A0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#DashboardPage input{
+    height: 30px;
+    width: 60%;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+#DashboardSubmit{
+    height: 30px;
+    width: 60%;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7a1c41;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    transition: 0.1s ease-in-out;
+    &:hover{
+        background-color: #8f3559;
+        color: white;
+        scale: 1.1;
+        cursor: pointer;
+    }
+}
+
+.hr{
+    width: 100%;
+    height: 1px;
+    background-color: #7a1c41;
+}
+
+#add_listing_image{
+    &:hover{
+        cursor: pointer;
+    }
+}
