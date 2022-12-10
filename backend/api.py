@@ -24,7 +24,6 @@ app.add_middleware(
 
 @app.post("/signup")
 async def signup(userInfo: dict):
-    print(userInfo)
     db = dbmethods()
     companyName = userInfo['companyName']
     companyEmail = userInfo['companyEmail']

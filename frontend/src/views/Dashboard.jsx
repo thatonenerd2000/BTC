@@ -26,7 +26,14 @@ const Dashboard = () => {
       <label>Distribution Date</label>
       <input type="date" />
       <br />
-      <button id="DashboardSubmit">Submit</button>
+      <button
+        onclick={(e) => {
+          alert("submit");
+        }}
+        id="DashboardSubmit"
+      >
+        Submit
+      </button>
     </div>
   );
 };
